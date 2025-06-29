@@ -35,8 +35,15 @@
 
 form .display{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-content: center;
     margin: 20px 0;
+}
+
+@media (max-width: 400px){
+   form .display{
+        flex: 1;
+    }
 }
 
 form .display input{
