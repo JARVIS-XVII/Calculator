@@ -40,10 +40,18 @@ form .display{
     margin: 20px 0;
 }
 
-@media (max-width: 400px){
-   .display{
-        flex: 1;
-    }
+@media (max-width: 600px) {
+  .container {
+    width: 95vw;
+    min-width: 0;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  .button {
+    width: 20vw;
+    height: 12vw;
+    font-size: 1.2em;
+  }
 }
 
 form .display input{
