@@ -41,7 +41,7 @@ form .display{
 }
 
 @media (max-width: 400px){
-   form .display{
+   .display{
         flex: 1;
     }
 }
