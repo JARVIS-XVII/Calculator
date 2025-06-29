@@ -9,8 +9,8 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+     flex-direction: column;
+      align-items: center;
     background: #e3f9ff;
 }
 
@@ -50,6 +50,8 @@ form .display{
   .button {
     width: 20vw;
     height: 12vw;
+      display: flex;
+        justify-content: space-between;
     font-size: 1.2em;
   }
 }
